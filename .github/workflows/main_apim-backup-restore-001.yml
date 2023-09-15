@@ -26,4 +26,4 @@ jobs:
           app-name: 'apim-backup-restore-001'
           slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3E3FD93ABF1B4C51A404610A635F4F64 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_77D13125B23241D284F49D5E0F010573 }}
