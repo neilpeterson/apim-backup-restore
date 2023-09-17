@@ -1,4 +1,4 @@
-Connect-AzAccount -Identity
+Connect-AzAccount -SubscriptionId '7d87d11e-2aaa-4d69-85bf-a1c11503f96d' -Identity
 
 $apiManagementName = Get-AutomationVariable -Name "apiManagementName"
 $apiManagementResourceGroup = Get-AutomationVariable -Name "apiManagementResourceGroup"
